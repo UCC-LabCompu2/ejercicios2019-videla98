@@ -18,25 +18,41 @@
     https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output-->
 
 <h3>Suscribase a Nuestro Portal de Noticias! Crear una cuenta es rápido!</h3>
-Nombre:
-Apellido:
-Sexo: Masculino Femenino
-Edad:
-Email:
-Usuario:
-Password:
-Confirmar Password:
 
-Tipo de servicio: Free / Standard / Premium
-Tema:
-Política
-Negocios
-Tecnología
-Salud
+<fieldset>
+    <legend>Datos</legend>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre"> <br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido"> <br>
+    <label for="sex">Sexo:</label>
+    <input name="sexo" type="radio" id="sex"> Masculino <input name="sexo" type="radio" id="sex">Femenino <br>
+    <label for="nombre">Edad:</label>
+    <input type="edad" id="edad" min="0" max="150"> <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email"> <br>
+    <label for="user">Usuario: </label>
+    <input type="text" id="user"> <br>
+    <label for="psw">Password:</label>
+    <input type="password" id="psw"> <br>
+    <label for="cpsw">Confirmar Password:</label>
+    <input type="password" id="cpsw"> <br>
+</fieldset>
+<div>
+    Tipo de servicio: <input name="service" type="radio">Free <input name="service" type="radio">Standard <input name="service" type="radio">Premium<br>
+    Tema: <br>
+    <select name="tema">
+        <option value="Política">Política</option>
+        <option value="Negocio">Negocios</option>
+        <option value="Tecnología">Tecnología</option>
+        <option value="Salud">Salud</option>
+    </select>
+</div>
 
-Agregue un comentario:
-
-Boton de Enviar
+Agregue un comentario: <br>
+<textarea name="coments" id="" cols="30" rows="10"></textarea>
+<br>
+<button>Boton de Enviar</button>
 
 
 </body>
