@@ -1,0 +1,27 @@
+
+body{
+    margin: 0;
+    background: linear-gradient(to right, lawngreen, forestgreen);
+    font-family: 'Roboto Mono', monospace;
+}
+div{
+    border-radius: 25px;
+    border: 3px solid green;
+    text-align: center;
+    margin: 10px 30% 10px 30%;
+    background: lightblue;
+    padding: 10px;
+    position: relative;
+}
+img{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.curso{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
