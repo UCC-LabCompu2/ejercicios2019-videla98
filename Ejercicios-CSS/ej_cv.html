@@ -10,6 +10,7 @@
             font-family: 'Roboto Mono', monospace;
         }
         div{
+            border-radius: 25px;
             border: 3px solid green;
             text-align: center;
             margin: 10px 30% 10px 30%;
@@ -20,8 +21,14 @@
         img{
             position: absolute;
             top: 30px;
-            left: 20px;
-
+            left: 30px;
+        }
+        .curso{
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
     </style>
@@ -29,7 +36,7 @@
 <body>
 
 <div class="titulo">
-    <img src="Imagenes/UCC.jpg" width="100">
+    <img src="Imagenes/UCC.jpg" width="100" alt="ucc logo">
     <h1>Agustin Videla</h1>
     <h2>Ing. en Sistemas</h2>
 </div>
@@ -47,16 +54,16 @@
     <p><span>Año de Ingreso:</span> 2017</p>
 </div>
 
-<div class="curso">
+<div class="cursos">
     <h3>Cursos</h3>
 
-    <div>
+    <div class="curso">
         <h4>Perdida Avanzada de Tiempo</h4>
         <p><span>Lugar: </span>Reddit</p>
         <p><span>Año: </span>2015</p>
     </div>
 
-    <div>
+    <div class="curso">
         <h4>Completar Todo a Ultimo Momento</h4>
         <p><span>Lugar: </span>Mi escritorio</p>
         <p><span>Año: </span>2016</p>
